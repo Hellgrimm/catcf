@@ -1,14 +1,30 @@
-.header {
+@media (min-width: 320px) {
+  
+}
+
+@media (min-width: 770px) {
+  
+}
+
+@media (min-width: 990px) {
+  .header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
     align-items: center;
   }
+}
+
+@media (min-width: 1200px) {
+  
+} 
+
+
   .header h2 {
-    font-size: 4em;
+
   }
   .header h3 {
-    font-size: 3em;
+
     font-weight: 400;
     margin-bottom: 20px;
   }

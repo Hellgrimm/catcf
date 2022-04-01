@@ -8,6 +8,7 @@ module.exports = {
   pathPrefix: "/gatsby-github-pages",
   /* Your site config here */
   plugins: [
+    `gatsby-plugin-styled-components`,
     `gatsby-transformer-remark`,
     /*{
       resolve: `gatsby-source-filesystem`,
