@@ -15,14 +15,14 @@ export default function Navbar() {
   const {title} = data.site.siteMetadata
   
   return (
-    <nav class="navbar navbar-dark navbar-expand-lg">
-      <div class="container-fluid">
-      <h1>{title}</h1>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <nav className="navbar navbar-dark navbar-expand-lg">
+      <div className="container-fluid">
+        <h1>{title}</h1>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="links collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
+        <div className="links collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div className="navbar-nav">
             <div className="link"><Link to="/">Home</Link></div>
             
             <div className="link"><Link to="/characters">Characters</Link></div>
