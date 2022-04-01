@@ -5,6 +5,7 @@
  */
 
 module.exports = {
+  pathPrefix: "/gatsby-github-pages",
   /* Your site config here */
   plugins: [
     `gatsby-transformer-remark`,
