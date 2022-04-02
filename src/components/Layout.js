@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
-import '../styles/global.css'
+import '../styles/global.css';
 import { graphql, useStaticQuery } from 'gatsby'
 
 export default function Layout({ children }) {
