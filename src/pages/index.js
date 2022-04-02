@@ -21,7 +21,7 @@ export default function Home({ data }) {
       </div>
     </section>
     <section className={styles.main}>
-      <div className={styles.firstpar}>
+      <div className={[styles.firstpar, styles.paragraph]}>
         <h3>First Paragraph</h3>
         <p>Thats another paragraph. Nice to see you!</p>
       </div>

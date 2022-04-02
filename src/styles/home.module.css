@@ -53,8 +53,6 @@
   @media (min-width: 1200px) {
     
   } 
-
-  
   /**/
 
   /*Main*/
@@ -68,9 +66,15 @@
       font-weight: 400;
       padding-bottom: 20px;
     }
+    .main{
+      padding-top: 20px;
+    }
+    .main .paragraph{
+      padding-bottom: 15px;
+    }
   }
   
-  @media (min-width: 770px) {
+  @media (min-width: 768px) {
     
   }
   
