@@ -58,90 +58,91 @@ body {
 
 /*Navbar and footer*/
 
-@media (min-width: 320px) {
-  nav {
-    background-color: rgb(31, 31, 31);
+  @media (min-width: 320px) {
+    nav {
+      background-color: rgb(31, 31, 31);
+    }
+    .navbar {
+      padding: 20px 20px;
+    }
+    nav h1{
+      font-size: 28px;
+      line-height: 1.1;
+      font-style: normal;
+      color: #e0e0e0;
+      font-weight: 300;
+    }
+    nav .container-fluid{
+      grid-template-columns: 1fr 1fr;
+    }
+    nav .navbar-nav {
+      text-align: center;
+    }
+    .navbar-toggler {
+      border:white;
+      position: right;
+    }
+    nav a {
+      padding-top: 10px;
+      display: inline-block;
+      color: white;
+      margin-left: 20px;
+      font-weight: 400;
+      padding-bottom: 8px;
+      border-bottom: 3px solid transparent;
+      text-decoration: none;
+    }
+    nav a:hover {
+      border-color: white;
+      color: white;
+    }
+    footer p{
+      text-align: center;
+      color: #bbb;
+      margin: 40px auto;
+    }
   }
-  .navbar {
-    padding: 20px 20px;
-  }
-  nav h1{
-    font-size: 24px;
-    line-height: 1.1;
-    font-style: normal;
-    color: #e0e0e0;
-    font-weight: 300;
-  }
-  nav .container-fluid{
-    grid-template-columns: 1fr 1fr;
-  }
-  nav .navbar-nav {
-    text-align: center;
-  }
-  .navbar-toggler {
-    border:white;
-    position: right;
-  }
-  nav a {
-    padding-top: 10px;
-    display: inline-block;
-    color: white;
-    margin-left: 20px;
-    font-weight: 400;
-    padding-bottom: 8px;
-    border-bottom: 3px solid transparent;
-    text-decoration: none;
-  }
-  nav a:hover {
-    border-color: white;
-    color: white;
-  }
-  footer p{
-    text-align: center;
-    color: #bbb;
-    margin: 40px auto;
-  }
-}
 
-@media (min-width: 768px) {
-  .navbar {
-    padding: 20px 50px;
+  @media (min-width: 768px) {
+    .navbar {
+      padding: 20px 50px;
+    }
+    nav .navbar-collapse {
+      flex-grow: 0;
+    }
   }
-  nav .navbar-collapse {
-    flex-grow: 0;
+
+  @media (min-width: 990px) {
+    nav h1{
+      font-size: 44px;
+    }
   }
-}
 
-@media (min-width: 990px) {
-  nav h1{
-    font-size: 44px;
-  }
-}
+  @media (min-width: 1200px) {
+    
+  } 
 
-@media (min-width: 1200px) {
-  
-} 
-
-
+/*Types and other*/
   @media (min-width: 320px) {
     .layout {
-      margin: 15px auto;
-      padding: 0 30px;
+      margin: 30px auto;
+      padding: 0 20px;
     }
     p{
-      font-size: 16px;
+      font-size: 20px;
     }
     h2{
-      font-size: 28px;
+      font-size: 34px;
+      text-align: center;
     }
     h3{
-      font-size: 18px;
+      font-size: 28px;
     }
   }
 
   @media (min-width: 768px) {
     .layout {
-      margin: 0 auto;
+      margin: 50px auto;
       padding: 0 50px;
     }
   }
@@ -149,13 +150,13 @@ body {
   @media (min-width: 990px) {
     .layout {
       max-width: 1200px;
-      margin: 0 auto;
+      margin: 50px auto;
     }
   }
 
   @media (min-width: 1200px) {
     .layout {
-      margin: 0 auto;
+      margin: 50px auto;
     }
     
     h2{
